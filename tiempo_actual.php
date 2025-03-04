@@ -109,7 +109,7 @@ $tiempo_actual = obtener_tiempo_actual($lat, $lon);
             <a href="pronostico_horas.php?lat=<?php echo $lat; ?>&lon=<?php echo $lon; ?>&city=<?php echo $city; ?>">Pronóstico 48 horas</a>
             <a href="pronostico_semana.php?lat=<?php echo $lat; ?>&lon=<?php echo $lon; ?>&city=<?php echo $city; ?>">Pronóstico 5 dias</a>
         </div>
-        <a href="index.html" class="back-button">Volver</a>
+        <a href="index.php" class="back-button">Volver</a>
     </div>
 </body>
 </html>
